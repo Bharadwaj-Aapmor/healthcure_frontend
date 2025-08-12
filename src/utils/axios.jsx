@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://healthcure-backend-deebgrg0eaffbmgv.canadacentral-01.azurewebsites.net/api",
 });
 
 axiosInstance.interceptors.request.use((config) => {
